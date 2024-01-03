@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    display: flex;
+    background-color: #121921;
+    color: white;
+    width: 100vw;
+    align-content: space-between;
+    height: 55px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+nav .logo :hover {
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+nav .logo img {
+    height: 55px;
+}
+
+nav .address {
+    display: flex;
+    flex-direction: row;
+}
+
+nav .address .left {
+    padding-top: 18px;
+}
+
+nav .address .right {
+    display: flex;
+    flex-direction: column;
+    padding: 7px 3px;
+}
+
+nav .address .right .up {
+    font-size: 15px;
+    color: #7a7e84;
+}
+
+nav .address .right .down {
+    font-size: 17px;
+    color: white;
+    font-weight: 700;
+}
+
+nav .address :hover {
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+nav .search {
+    width: 47vw;
+    background-color: white;
+    margin: 10px;
+    display: flex;
+    border-radius: 15px;
+}
+
+nav .search .left {
+    width: 10vw;
+    background-color: #e6e6e6;
+    padding: 10px 10px;
+    color: black;
+    font-size: 12px;
+    display: flex;
+}
+
+nav .search .left .span {
+    padding: 10px 2px;
+}
+
+nav .search .center {
+    display: flex;
+    width: 40vw;
+    cursor: text;
+}
+
+nav .search .center .left {
+    color: rgb(113, 109, 109);
+    padding: 10px;
+    font-size: 15px;
+    width: 39vw;
+    background-color: white;
+}
+
+nav .search .right {
+    padding: 5px;
+}
+
+nav .search .searchright {
+    background-color: #febd69;
+    width: 12vw;
+    padding: 5px 15px;
+}
+
+nav .lang {
+    display: flex;
+    padding: 16px 2px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+nav .lang :hover {
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+nav .signin {
+    display: flex;
+    padding: 12px 2px;
+}
+
+nav .signin .left .up {
+    font-size: 12px;
+}
+
+nav .signin .left .down {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+nav .return {
+
+    padding: 12px 2px;
+}
+
+nav .return .up {
+    font-size: 12px;
+}
+
+nav .return .down {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+nav .cart {
+    display: flex;
+}
+
+nav .cart .left {
+    padding: 10px 2px;
+}
+
+nav .cart .right {
+    font-size: 15px;
+    font-weight: 700;
+    padding-top: 26px;
+}
+
+.nav-down {
+    background-color: #232f3e;
+    height: 45px;
+    display: flex;
+}
+
+.nav-down .left{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-down .left .all svg{
+    padding: 10px;
+}
+.nav-down .left .all span{
+    color: white;
+    /* padding: 5px 2px; */
+    margin: 10px;
+}
