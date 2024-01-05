@@ -238,15 +238,6 @@ main .image {
 
 }
 
-
-
-
-
-
-
-
-
-
 .grid {
     display: grid;
     grid-template-columns: 324px 324px 324px 324px;
@@ -282,27 +273,147 @@ main .image {
 }
 
 .get {
-    background-color: #232f3e;
-    height: 500px;
-    color: white;
-
-}
-
-.get {
-    background-color: #131a22;
-    height: 100px;
+    height: 270px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    column-gap: 50px;
+    column-gap: 0px;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    justify-items: center;
+    background-color: #232f3e;
 }
 
-a {
+h5{
+    color: white;
+}
+
+.column a {
     color: white;
     text-decoration: none;
+    padding: 5px 0px;
 }
 
 .get .column .amp {
     display: flex;
     flex-direction: column;
+    font-size: 15px;
+
+}
+
+.column {
+    padding: 50px;
+    /* height: 500px; */
+}
+
+.seperation {
+    height: 1px;
+    background-color: #3a4553;
+}
+
+.country {
+    background-color: #232f3e;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+}
+
+.country .line1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 60px
+}
+
+button{
+    background-color: #232f3e;
+    color: white;
+    border:1px solid #848688;
     text-align: center;
+    width: 150px;
+}
+
+button svg{
+    align-self: self-start;
+}
+.country .line2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 12px;
+    max-width: 75%;
+    
+}
+
+.country .line3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 12px;
+    max-width: 75%;
+    color: #839095;
+    text-decoration: none;
+}
+
+.country .line2 a {
+    padding: 10px;
+    color: #839095;
+    text-decoration: none;
+}
+
+.country .line3 a {
+    padding: 10px;
+    color: #839095;
+    text-decoration: none;
+}
+
+.last {
+    background-color: #131a22;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.last .block1{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    column-gap: -17px;
+    row-gap: 20px;
+    align-items: center;
+    align-content: space-around;
+    justify-content: space-evenly;
+    justify-items: center;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 12px;
+}
+.last .block1  h4{
+    color: #627e82;
+}
+.last .block1 a{
+    text-decoration: none;
+    text-align: center;
+    color: #848688;
+}
+.last .block2{
+    color: white;
+    font-size: 15px;
+    padding: auto;
+}
+.last .block2 .line1 ul li {
+    display: inline;
+    padding: 10px;
+    align-self: center;
+    
+}
+.last .block2 .line1 ul{
+    padding-inline-start: 500px;
+    margin-top: 25px;
+}
+.last .block2 .line2{
+    text-align: center;
+    margin-top: 10px;
+    color: #51bed6;
 }
