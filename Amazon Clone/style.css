@@ -224,17 +224,101 @@ main .image {
 
 .grd {
     display: grid;
-    grid-template-columns: 360px 360px 360px 360px;
+    grid-template-columns: 390px 390px 390px 390px;
     grid-template-rows: 420px 420px;
-    gap: 25px;
     position: relative;
-    top: -350px;
-    justify-content: space-evenly;
+    top: -400px;
+    gap: 15px;
+    justify-content: space-around;
+    justify-items: stretch;
+    padding: 10px;
 }
 
 .grd .box1 {
-    background-color: rgb(255, 255, 255);
+    background-color: #e4e7e6;
     display: grid;
+    border: 1px solid black;
+}
+
+.grd .bo1 {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+h4 {
+    padding: 20px 39px 0px 23px;
+    height: 50px;
+}
+
+.grd .bo1 img {
+    padding: auto;
+    margin: 20px;
+    border: 1px solid black;
+}
+
+.grd .bo1 .line2 {
+    color: #51bed6;
+    padding: 5px 20px;
+    font-size: 15px;
+}
+
+.grd .bo2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.grd .bo2 .line1 {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding: 15px 25px;
+    height: 130px;
+}
+
+.grd .bo2 .line1 .a1 {
+    font-size: 12px;
+    color: #404242;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.grd .bo2 .line1 img {
+    width: 150px;
+    cursor: pointer;
+}
+
+.grd .bo2 .line2 {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding: 0px 25px;
+    height: 130px;
+
+}
+
+.grd .bo2 .line2 .a1 {
+    font-size: 12px;
+    color: #404242;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    cursor: pointer;
+
+}
+
+.grd .bo2 .line2 img {
+    width: 150px;
+    cursor: pointer;
+}
+
+.grd .bo2 .line3 {
+    color: #51bed6;
+    padding: 10px 20px;
+    font-size: 15px;
+    height: 30px;
 
 }
 
@@ -283,7 +367,7 @@ main .image {
     background-color: #232f3e;
 }
 
-h5{
+h5 {
     color: white;
 }
 
@@ -328,24 +412,25 @@ h5{
     gap: 60px
 }
 
-button{
+button {
     background-color: #232f3e;
     color: white;
-    border:1px solid #848688;
+    border: 1px solid #848688;
     text-align: center;
     width: 150px;
 }
 
-button svg{
+button svg {
     align-self: self-start;
 }
+
 .country .line2 {
     display: flex;
     flex-direction: row;
     align-items: center;
     font-size: 12px;
     max-width: 75%;
-    
+
 }
 
 .country .line3 {
@@ -372,11 +457,12 @@ button svg{
 
 .last {
     background-color: #131a22;
-    height: 200px;
+    height: 300px;
     display: flex;
     flex-direction: column;
 }
-.last .block1{
+
+.last .block1 {
     display: grid;
     grid-template-columns: 100px 100px 100px 100px;
     column-gap: -17px;
@@ -389,30 +475,36 @@ button svg{
     margin-top: 15px;
     font-size: 12px;
 }
-.last .block1  h4{
+
+.last .block1 h4 {
     color: #627e82;
 }
-.last .block1 a{
+
+.last .block1 a {
     text-decoration: none;
     text-align: center;
     color: #848688;
 }
-.last .block2{
+
+.last .block2 {
     color: white;
     font-size: 15px;
     padding: auto;
 }
+
 .last .block2 .line1 ul li {
     display: inline;
     padding: 10px;
     align-self: center;
-    
+
 }
-.last .block2 .line1 ul{
+
+.last .block2 .line1 ul {
     padding-inline-start: 500px;
     margin-top: 25px;
 }
-.last .block2 .line2{
+
+.last .block2 .line2 {
     text-align: center;
     margin-top: 10px;
     color: #51bed6;
