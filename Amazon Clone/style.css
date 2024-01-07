@@ -390,39 +390,49 @@ h4 {
     background-color: white;
     position: relative;
     top: -400px;
-    height: 420px;
+    height: 285px;
     margin: 25px;
 }
 
-.container3 h4{
-    margin: 5px 10px;
-    text
+.cont {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-around;
+    background-color: white;
+    position: relative;
+    top: -400px;
+    height: 285px;
+    margin: 25px;
+}
+.cont h4{
+    margin: 0px 10px;
+    height: 20px;
+    padding: 20px 10px 0px 23px;
 }
 
-.container3 .image1{
+.cont .top{
+    display: flex;
+    flex-direction: row;
+}
+.cont .top span{
+    color: #51bed6;
+    font-size: 12px;
+    margin: 5px -10px;
+    padding: 25px 11px 0px 0px;
+    cursor: pointer;
+}
+
+.cont .image1{
     padding: 0px 5px;
     display: flex;
     overflow-x: scroll;
 } 
 
-.container3 .image1 img{
+.cont .image1 img{
     /* padding: 5px 10px; */
     margin: 5px 7px;
     cursor: pointer;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -596,6 +606,6 @@ button svg {
 
 .last .block2 .line2 {
     text-align: center;
-    margin-top: 10px;
-    color: #51bed6;
+    margin-top: 15px;
+    color: #167d90;
 }
