@@ -363,43 +363,11 @@ h4 {
 
 .box10 .down .line1{
     height: 55px;
-    width: 175px;
+    width: 300px;
     font-size: 15px;
-    overflow: auto;
-    white-space: nowrap;
-    margin: 0px 15px;
-    
+    overflow: scroll;    
+    margin: 0px 25px;   
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .grid {
     display: grid;
@@ -407,7 +375,7 @@ h4 {
     grid-template-rows: 420px;
     gap: 25px;
     position: relative;
-    top: -350px;
+    top: -400px;
     justify-content: space-evenly;
 }
 
@@ -417,13 +385,56 @@ h4 {
 
 .con {
     display: flex;
+    flex-direction: column; 
     justify-content: space-around;
     background-color: white;
     position: relative;
-    top: -350px;
+    top: -400px;
     height: 420px;
     margin: 25px;
 }
+
+.container3 h4{
+    margin: 5px 10px;
+    text
+}
+
+.container3 .image1{
+    padding: 0px 5px;
+    display: flex;
+    overflow-x: scroll;
+} 
+
+.container3 .image1 img{
+    /* padding: 5px 10px; */
+    margin: 5px 7px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .back {
     background-color: #37475a;
