@@ -385,14 +385,111 @@ h4 {
 
 .con {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     justify-content: space-around;
     background-color: white;
     position: relative;
-    top: -400px;
-    height: 285px;
-    margin: 25px;
+    top: -434px;
+    height: 350px;
+    margin: 50px 25px;
 }
+
+.top1{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 10px;
+    height: 20px;
+    padding: 20px 10px 0px 15px;
+    position: relative;
+    z-index: 5;
+}
+
+.top1 h4{
+    padding: 0px 24px 0px 5px;
+}
+
+.top1 span{
+    color: #51bed6;
+    font-size: 12px;
+    margin: 5px -25px;
+    padding: 0px 20px 0px 15px;
+    cursor: pointer;
+}
+
+.con .down{
+    margin: 5px;
+    height: 285px;
+    padding: 0px 10px 0px 10px;
+    display: flex;
+    flex-direction: row;
+    overflow: scroll ;
+}
+
+.con .down .boxes{
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 350px;
+    background-color: #f7f8f8;
+    margin: 10px;
+}
+
+.con .down .boxes img{
+    width: 100px;
+    margin: auto;
+    height: 145px;
+}
+
+.con .down .boxes .line1{
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    margin: 7px 9px;
+    font-size: 12px;
+    gap: 10px;
+    
+}
+
+.con .down .boxes .line1 .left{
+    background-color: red;
+    color: white;
+    padding: 5px 2px;
+    text-align: center;
+    width: 80px;
+    font-weight: 200;
+}
+
+.con .down .boxes .line1 .right{
+    color: red;
+    font-weight: 200;
+    text-align: center;
+    padding: 5px 2px;
+}
+
+.con .down .boxes .line2{
+    font-size: 10px;
+    margin: 7px 9px;
+}
+
+.b5{
+    background-color: white!important;
+}
+
+.b5 img{
+    height: 250px !important;
+}
+.container5{
+    grid-template-columns: 23vw 23vw 23vw 23vw;
+    grid-template-rows: 420px !important;
+}
+
+
+
+
+
+
+
+
 
 .cont {
     display: flex;
@@ -404,6 +501,7 @@ h4 {
     height: 285px;
     margin: 25px;
 }
+
 .cont h4{
     margin: 0px 10px;
     height: 20px;
@@ -433,18 +531,6 @@ h4 {
     margin: 5px 7px;
     cursor: pointer;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 .back {
     background-color: #37475a;
