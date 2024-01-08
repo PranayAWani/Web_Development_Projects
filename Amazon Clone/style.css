@@ -485,7 +485,15 @@ h4 {
     grid-template-rows: 420px !important;
 }
 
+.container8{
+    grid-template-columns: 23vw 23vw 23vw 23vw;
+    grid-template-rows: 420px !important;
+    margin-top: 10px;
+}
 
+.container8 .bo1 .line2{
+    font-size: 12px;
+}
 
 
 
