@@ -552,17 +552,55 @@ h4 {
     display: flex;
     flex-direction: row;
     overflow: scroll;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
 }
 
+.container12 .down12 .right .boxes{
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 350px;
+    background-color: #f7f8f8;
+    margin: 10px;
+}
 
+.container12 .down12 .right .boxes img{
+    width: 100px;
+    margin: auto;
+    height: 145px;
+}
 
+.container12 .down12 .right .boxes .line1{
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    margin: 7px 9px;
+    font-size: 12px;
+    gap: 10px;
+}
 
+.container12 .down12 .right .boxes .line1 .left{
+    background-color: red;
+    color: white;
+    padding: 5px 2px;
+    text-align: center;
+    width: 80px;
+    font-weight: 200;
+}
 
+.container12 .down12 .right .boxes .line1 .right{
+    color: red;
+    font-weight: 200;
+    text-align: center;
+    padding: 5px 2px;
+}
 
-
-
-
-
+.container12 .down12 .right .boxes .line2{
+    font-size: 10px;
+    margin: 7px 9px;
+}
 
 
 
