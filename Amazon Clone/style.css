@@ -198,10 +198,11 @@ nav .cart .right {
 
 main {
     background-color: #7a7e84;
+    height: 6093px;
 }
 
 main .image {
-    background-image: url(backgroundimage.jpg);
+    background-image: url(banner.jpg);
     border: 1px solid white;
     border-radius: 5px;
     max-width: 100%;
@@ -644,6 +645,30 @@ h4 {
     /* padding: 5px 10px; */
     margin: 5px 7px;
     cursor: pointer;
+}
+
+.addlong1{
+    display:flex;
+    position: relative;
+    justify-content: center;
+    top: -418px;
+    height: 350px;
+    background-color: white;
+    
+    margin: 10px 27px;
+    width: 95%;
+    padding: 10px;
+}
+
+.addlong1 img{
+    overflow: hidden;
+}
+.addshort1{
+    display: flex;
+    margin: 50px;
+    position: relative;
+    top: -418px;
+    justify-content: center;
 }
 
 .back {
