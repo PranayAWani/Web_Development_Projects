@@ -165,17 +165,21 @@ header .fix {
     font-weight: 700;
     font-size: 28px;
 }
-.seperation{
+/* .seperation{
     height: 1px;
     background-color: white;
     width: 100%;
+} */
+main{
+    /* background-color: black; */
 }
-
 .passenger{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
+    /* color: white; */
+
 }
 
 .passenger .up{
@@ -197,7 +201,10 @@ header .fix {
 .car {
     display: flex;
     flex-direction: row;
-    overflow-x: scroll;
-    height: 500px;
-    background-color: aqua;
+    overflow: scroll;
+    height: 250px;
+    /* background-color: aqua; */
+}
+.last{
+    height: 50px;
 }
