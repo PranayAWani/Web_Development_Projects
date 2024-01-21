@@ -165,21 +165,16 @@ header .fix {
     font-weight: 700;
     font-size: 28px;
 }
-/* .seperation{
-    height: 1px;
-    background-color: white;
-    width: 100%;
-} */
-main{
-    /* background-color: black; */
-}
+
 .passenger{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
     /* color: white; */
-
+    text-align: center;
+    font-size: 35px;
+    font-weight: 500;
 }
 
 .passenger .up{
@@ -195,16 +190,59 @@ main{
 
 .passenger .down ul li{
     margin: 5px 15px;
-    box-shadow: 0px 1px 0px red;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 2.5px 15px;
+}
+
+.passenger .down ul li:hover{
+    background-color: rgb(255, 51, 51);
+    font-weight: 700;
 }
 
 .car {
     display: flex;
     flex-direction: row;
     overflow: scroll;
-    height: 250px;
-    /* background-color: aqua; */
+    height: 375px;
 }
+
+.car:hover{
+    height: 370px;
+}
+
+.car .image{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    /* border: 1px solid black; */
+    margin: 15px 25px;
+    padding: 20px;
+    color: black;
+    /* box-shadow: 1px 1px 1px black; */
+}
+
+.car .image:hover{
+    color: red;
+    box-shadow: 1px 1px 1px black;
+    font-weight: 800;
+    box-shadow:  10px 5px 20px 0px black;
+}
+
+.car .image img{
+    width: 25vw;
+    margin: 15px 25px;
+}
+
+.car .image img:hover{
+    width: 27vw;
+    margin: 10px 20px;
+}
+
 .last{
     height: 50px;
 }
