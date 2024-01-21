@@ -133,18 +133,18 @@ header .fix {
     justify-content: center;
 }
 
-.lowerbar span{
+.lowerbar span {
     font-size: 25px;
     margin: 15px;
 }
 
-.suv{
+.suv {
     background: transparent;
     color: white;
     border: none;
     font-size: 25px;
     margin: 0px 25px 0px 5px;
-    cursor:pointer;
+    cursor: pointer;
     box-shadow: 0px 2px 0px red;
     font-weight: 700;
     font-size: 28px;
@@ -161,12 +161,12 @@ header .fix {
     cursor: pointer;
     border-radius: 10px;
     margin: 0px 25px 0px 5px;
-    cursor:pointer;
+    cursor: pointer;
     font-weight: 700;
     font-size: 28px;
 }
 
-.passenger{
+.passenger {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -177,7 +177,7 @@ header .fix {
     font-weight: 500;
 }
 
-.passenger .up{
+.passenger .up {
     margin: 40px;
 }
 
@@ -188,14 +188,14 @@ header .fix {
     box-shadow: 0px 1px 0px red;
 }
 
-.passenger .down ul li{
+.passenger .down ul li {
     margin: 5px 15px;
     font-size: 20px;
     font-weight: 300;
     padding: 2.5px 15px;
 }
 
-.passenger .down ul li:hover{
+.passenger .down ul li:hover {
     background-color: rgb(255, 51, 51);
     font-weight: 700;
 }
@@ -207,11 +207,11 @@ header .fix {
     height: 375px;
 }
 
-.car:hover{
+.car:hover {
     height: 370px;
 }
 
-.car .image{
+.car .image {
     font-size: 25px;
     text-align: center;
     font-weight: 700;
@@ -226,23 +226,23 @@ header .fix {
     /* box-shadow: 1px 1px 1px black; */
 }
 
-.car .image:hover{
+.car .image:hover {
     color: red;
     box-shadow: 1px 1px 1px black;
     font-weight: 800;
-    box-shadow:  10px 5px 20px 0px black;
+    box-shadow: 10px 5px 20px 0px black;
 }
 
-.car .image img{
+.car .image img {
     width: 25vw;
     margin: 15px 25px;
 }
 
-.car .image img:hover{
+.car .image img:hover {
     width: 27vw;
     margin: 10px 20px;
 }
 
-.last{
+.last {
     height: 50px;
 }
