@@ -257,13 +257,25 @@ header .fix {
     grid-template-columns: 45% 45%;
     grid-template-rows: 250px 250px;
     gap: 5px;
-    
+    justify-content: center;
 }
-.action .actionbox box{
+.action .actionbox .box{
     background-color: gray;
+    display: grid;
+    grid-template-columns: 40% 50%;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.action .actionbox .box:hover{
+    background-color: red;
 }
 
 
+svg:hover{
+    fill: white;
+}
 
 
 .last {
