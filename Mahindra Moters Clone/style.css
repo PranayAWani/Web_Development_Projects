@@ -253,14 +253,14 @@ header .fix {
 }
 
 .action .actionbox{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-    box-shadow: 1px 1px 1px black;
-    height: 50vh;
-    margin: 30px 25px;
-    padding: 5px;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: 250px 250px;
+    gap: 5px;
+    
+}
+.action .actionbox box{
+    background-color: gray;
 }
 
 
