@@ -268,9 +268,7 @@ header .fix {
     align-items: center;
 }
 
-.action .actionbox .box:hover{
-    background-color: red;
-}
+
 
 
 svg:hover{
