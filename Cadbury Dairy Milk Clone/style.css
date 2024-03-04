@@ -90,12 +90,12 @@ header .container .left{
     align-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin: 10px 10px 40px 75px;
+    margin: 10px 10px 40px 125px;
 }
 
 header .container .right{
     color: white;
-    margin: 10px 75px 10px 40px;
+    margin: 10px 125px 10px 40px;
 }
 
 header .container .right .sec{
@@ -105,7 +105,7 @@ header .container .right .sec{
 
 header .container .right .sec1{
     font-weight: 900;
-    font-size: 48px;
+    font-size: 42px;
 }
 
 header .container .right .sec2{
