@@ -3,26 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pranay Wani - Web Developer ,Programmer </title>
+    <title>Professional Profile</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-    <div class="sidebar">
-        Pranay
-        <nav>
-            <ul>
-                <li>Home</li>
-                <li>My Intro</li>
-                <li>Services</li>
-                <li>CV</li>
-                <li>Blog</li>
-            </ul>
-        </nav>
+    <div class="profile-container">
+        <img src="profile-pic.jpg" alt="Profile Picture">
+        <h1 id="name">Your Name</h1>
+        <p class="designation">Job Title</p>
+        <p id="bio">A brief professional bio...</p>
+        <button onclick="toggleEditMode()">Edit</button>
+        <div id="edit-form" style="display: none;">
+            <input type="text" id="edit-name" placeholder="Enter your name">
+            <input type="text" id="edit-designation" placeholder="Enter your job title">
+            <textarea id="edit-bio" placeholder="Enter your professional bio"></textarea>
+            <button onclick="saveChanges()">Save</button>
+        </div>
     </div>
-    <div class="main">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium tenetur illum voluptates sequi similique quae error enim, quisquam, doloribus officiis beatae, fugit et expedita maxime! Eveniet rerum deleniti accusantium ad!
-    </div>
-</div>
+
+    <script src="script.js"></script>
 </body>
 </html>
